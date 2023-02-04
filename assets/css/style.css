@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Font-2; 
+    src: url("../fonts/BigShouldersDisplay-VariableFont_wght.ttf")
+}
+@font-face{
+    font-family: Font-4;
+    src: url("../fonts/JosefinSans-VariableFont_wght.ttf")
+}
+@font-face{
+    font-family: Font-5;
+    src: url(../fonts/SecularOne-Regular.ttf);
+}
+@font-face{
+    font-family: Font-6;
+    src: url(../fonts/ZenDots-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+td{
+    padding: 5px 10px;
+    
+}
+/* input,select,textarea{
+    width: 100%;
+} */
+.main{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F82BC;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding:10px 0;
+    font-size: 30px;
+    border-bottom: 2px solid #CECECE;
+    border-top: 2px solid #CECECE;
+    border-radius: 10px;
+    font-family: Font-4;
+}
+.pointer{
+    color: blue;
+    font-size: 20px;
+}
+.w-100{
+    width: 100%;
+}

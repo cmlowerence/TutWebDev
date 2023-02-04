@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" media="all" />
+    <link rel="shortcut icon" href"./assets/img/favicon.png" type="image/x-icon" />
+</head>
+<body>
+    <div class="main">
+        <div class="formWrapper">
+            <form class="form">
+                <div class="box">
+                    <div class="heading">
+                        Project Management
+                    </div>
+                    <div class="formBody">
+                        <table class="formAligner">
+                            <tr>
+                                <td class="pointer">
+                                    <label for="prjName">Project Name : </label>
+                                </td>
+                                <td class="formData">
+                                    <input type="text" name="prjName" id="prjName" placeholder="Project Name " class="w-100" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pointer">
+                                    <label for="assignedTo">Assigned To : </label>
+                                </td>
+                                <td class="formData">
+                                    <select name="assignedTo" id="prjAssignTo" class="employee w-100">
+                                        <option value="Suresh" class="option">Suresh</option>
+                                        <option value="Ramesh" class="option">Ramesh</option>
+                                        <option value="Rajesh" class="option">Rajesh</option>
+                                        <option value="Subash" class="option">Subash</option>
+                                        <option value="Chudamani" class="option">Chudamani</option>
+                                        <option value="Rushi" class="option">Rishi</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pointer">
+                                    <label for="startDate">Start Date : </label>
+                                </td>
+                                <td class="formData">
+                                    <input type="date" value="20/01/2023" name="startDate" id="startDate" class="w-100" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pointer">
+                                    <label for="endDate">End Date : </label>
+                                </td>
+                                <td class="formData">
+                                    <input type="date" name="endDate" id="endDate" class="w-100" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pointer">
+                                    Priority :
+                                </td>
+                                <td class="formData">
+                                    <span class="w-100">
+                                        <span id="prtHigh">
+                                            <label for="high">High</label>
+                                            <input type="radio" name="priority" id="high" />
+                                        </span>
+                                        <span id="prtAvg">
+                                            <label for="average">Average</label>
+                                            <input type="radio" name="priority" id="average" checked />
+                                        </span>
+                                        <span id="prtLow">
+                                            <label for="low">Low</label>
+                                            <input type="radio" name="priority" id="low" />
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pointer">
+                                    <label for="description">Description : </label>
+                                </td>
+                                <td class="formData">
+                                    <textarea name="description" id="description" placeholder="Description..." class="w-100"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="btn">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
