@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    width: 100vw;
+    gap:10px;
+    background-color: #255EA9;
+}
+.leftnav{
+    width:30%;
+    display: flex;
+    
+}
+.logo img{
+    aspect-ratio: 1;
+    width: 40px;
+    
+    /* float: left; */
+}
